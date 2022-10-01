@@ -11,6 +11,7 @@ function capitalize(s)
 
 elForm.addEventListener('submit' ,  function(evt){
     evt.preventDefault()
+
     let newItem = document.createElement('li')
     elList.appendChild(newItem)
     let userName = document.createElement('p')
